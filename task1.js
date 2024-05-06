@@ -10,6 +10,10 @@ let rightnav = document.querySelector(".rightNav");
 let navlist = document.querySelector(".nav-list");
 let navbar = document.querySelector(".navbar");
 
+
+
+
+
 burgerg.addEventListener("click", (Pizza) => {
   rightnav.classlist.toggle("v-class-resp");
   navlist.classlist.toggle("'v-class-resp'");
