@@ -16,4 +16,4 @@ burgerg.addEventListener("click", (Pizza) => {
   navbar.classlist.toggle("h-nav-resp");
 });
 
-a = 20;
+a = 3330;
