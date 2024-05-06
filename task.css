@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer ;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7) url(./image/dfdf.jpg);
+    background-size: cover;
+}
+
+
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    /* background-color: black;    */
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+   background-color: white;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: aqua;
+}
+.rightNav{
+    width: 30%;
+    /* background-color: blueviolet; */
+    text-align: right;  
+}
+
+#Search{
+    padding: 2px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    font-size: 17px;
+}
+
+.firstSection{
+    
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url(./image/image1.jpg);
+    background-size: cover;
+}
+
+.box-main{
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: auto;
+}
+.first{
+    width: 180px;
+    height: 269px;
+    margin: 95px auto 0 0;
+    position: relative;
+    bottom: 150px;
+}
+.secondhlaf{
+    width: 140px;
+    height: 140px;
+    margin: 95px auto 0 0;
+    position: relative;
+    bottom: 200px;
+}
+
+.text-blog{
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 200px;
+    width: 707px;
+    font-weight: 800;
+    text-shadow: 9px 19px 42px rgba(112,43,177,0.45);
+}
+.Pizza{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+@media only screen and (max-width: 1180px){
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+    #search{
+        width: 100%;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+    .Pizza{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
